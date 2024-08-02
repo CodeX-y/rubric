@@ -7,9 +7,9 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - Reviewer Name:
 
 ## Readme (max: 10 points)
-- [ ] **Markdown**: Is the README formatted using Markdown?
-- [ ] **Naming**: Is the repository name relevant to the project?
-- [ ] **1-liner**: Is there a 1-liner briefly describing the project?
+- [x] **Markdown**: Is the README formatted using Markdown?
+- [x] **Naming**: Is the repository name relevant to the project?
+- [x] **1-liner**: Is there a 1-liner briefly describing the project?
 - [ ] **Instructions**: Are there detailed setup and installation instructions, ensuring a new developer can get the project running locally without external help?
 - [ ] **Configuration**: Are configuration instructions provided, such as environment variables or configuration files that need to be set up?
 - [ ] **Contribution**: Are there clear contribution guidelines? Do they outline how developers can contribute to the project, including coding conventions, branch naming conventions, and the pull request process?
@@ -23,14 +23,14 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Version Control (max: 10 points)
-- [ ] **Version Control**: Is the project using a version control system such as Git?
-- [ ] **Repository Management**: Is the repository hosted on a platform like GitHub, GitLab, or Bitbucket, making it accessible for collaboration and review?
-- [ ] **Commit Quality**: Does the project have regular commits with clear, descriptive messages?
+- [x] **Version Control**: Is the project using a version control system such as Git?
+- [x] **Repository Management**: Is the repository hosted on a platform like GitHub, GitLab, or Bitbucket, making it accessible for collaboration and review?
+- [x] **Commit Quality**: Does the project have regular commits with clear, descriptive messages?
 - [ ] **Pull Requests**: Does the project employ a clear branching and merging strategy, such as Git Flow, to organize development and feature integration?
 - [ ] **Issues**: Is the project utilizing issue tracking to manage tasks and bugs?
-- [ ] **Linked Issues**: Are these issues linked to pull requests (PRs)? (at least once)
-- [ ] **Project Board**: Does the project utilize a project board (e.g., GitHub Projects or Trello) to manage and prioritize work items? (linked to repository or readme, and public)
-- [ ] **Code Review Process**: Is there evidence of a code review process, with pull requests reviewed by peers or mentors **before** merging (at least once), ensuring code quality and collaborative learning?
+- [x] **Linked Issues**: Are these issues linked to pull requests (PRs)? (at least once)
+- [x] **Project Board**: Does the project utilize a project board (e.g., GitHub Projects or Trello) to manage and prioritize work items? (linked to repository or readme, and public)
+- [x] **Code Review Process**: Is there evidence of a code review process, with pull requests reviewed by peers or mentors **before** merging (at least once), ensuring code quality and collaborative learning?
 - [ ] **Branch Protection**: Are the main branches (e.g., master, main) protected to prevent direct commits and ensure code quality?
 - [ ] **Continuous Integration/Continuous Deployment (CI/CD)**: Has the project implemented CI/CD pipelines (using tools like GitHub Actions) to automate testing and deployment?
 
@@ -39,10 +39,10 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Code Hygiene (max: 8 points)
-- [ ] **Indentation**: Is the code consistently indented throughout the project?
+- [x] **Indentation**: Is the code consistently indented throughout the project?
 - [ ] **Naming Conventions**: Are naming conventions (e.g., variable names, method names, class names) clear, consistent, and descriptive?
-- [ ] **Casing Conventions**: Are casing conventions (e.g., camelCase for JavaScript, snake_case for Ruby, PascalCase for Ruby Classes) consistent throughout the project? 
-- [ ] **Layouts**: Is the code utilizing Rails' `application.html.erb` layout effectively, ensuring that it provides consistent and reusable templates for the application's views?
+- [x] **Casing Conventions**: Are casing conventions (e.g., camelCase for JavaScript, snake_case for Ruby, PascalCase for Ruby Classes) consistent throughout the project? 
+- [x] **Layouts**: Is the code utilizing Rails' `application.html.erb` layout effectively, ensuring that it provides consistent and reusable templates for the application's views?
 - [ ] **Code Clarity**: Is the code easy to read and understand? Look for simple, straightforward implementations and avoid unnecessary complexity. 
 - [ ] **Comment Quality**: Does the code include inline comments that explain "why" behind non-obvious logic? Over-commenting should be avoided; code should be self-explanatory wherever possible. 
 - [ ] **Minimal Unused Code**: Unused code should be deleted (not commented out).
@@ -53,9 +53,9 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Patterns of Enterprise Applications (max: 10 points)
-- [ ] **Domain Driven Design**: Does the application follow domain-driven design principles, with clear separation of concerns and a focus on the core domain logic?
+- [x] **Domain Driven Design**: Does the application follow domain-driven design principles, with clear separation of concerns and a focus on the core domain logic?
 - [ ] **Advanced Data Modeling**: Has the application utilized ActiveRecord callbacks for model lifecycle management?
-- [ ] **Component-Based View Templates**: Does the application use component-based view templates (partials) to promote reusability and maintainability?
+- [x] **Component-Based View Templates**: Does the application use component-based view templates (partials) to promote reusability and maintainability?
 - [ ] **Backend Modules**: Does the application effectively use modules (concerns, etc.) to encapsulate related functionality and promote code organization?
 - [ ] **Frontend Modules**: Does the application effectively use modules (es6, etc.) to encapsulate related functionality and promote code organization?
 - [ ] **Service Objects**: Does the application abstract logic into service objects when appropriate?
@@ -81,10 +81,10 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ## Frontend (max: 10 points)
 - [ ] **Mobile/Tablet Design**: It looks and works great on mobile/tablet (using media queries or CSS framework). Layouts should be responsive and user-friendly, not only shrunk down versions of the desktop site.
-- [ ] **Desktop Design**: It looks and works great on desktop.
-- [ ] **Styling**: Does the frontend employ CSS or CSS frameworks (like Bootstrap) for styling? Inline CSS should not be overrused.
-- [ ] **Semantic HTML**: Is the project making effective use of semantic HTML elements to structure the content, ensuring that it's both accessible and SEO-friendly (e.g., using `<header>`, `<footer>`, `<nav>`, or `<main>` when applicable. See https://www.w3schools.com/html/html5_semantic_elements.asp for more detail)
-- [ ] **Feedback**: Are styled flashes or toasts implemented in a partial to provide clear, user-feedback?
+- [x] **Desktop Design**: It looks and works great on desktop.
+- [x] **Styling**: Does the frontend employ CSS or CSS frameworks (like Bootstrap) for styling? Inline CSS should not be overrused.
+- [x] **Semantic HTML**: Is the project making effective use of semantic HTML elements to structure the content, ensuring that it's both accessible and SEO-friendly (e.g., using `<header>`, `<footer>`, `<nav>`, or `<main>` when applicable. See https://www.w3schools.com/html/html5_semantic_elements.asp for more detail)
+- [x] **Feedback**: Are styled flashes or toasts implemented in a partial to provide clear, user-feedback?
 - [ ] **Client-Side Interactivity**: Is JavaScript or JavaScript frameworks/libraries (e.g., jQuery, Stimulus, etc.) utilized to reduce unnecessary page reloads and provide a rich client side experience for key features of the app?
 - [ ] **AJAX**: Is Asynchronous JavaScript (and XML) used to perform a CRUD action and update the UI?
 - [ ] **Form Validation**: Does the project include client-side form validation to provide immediate feedback to users and reduce server requests?
