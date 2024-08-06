@@ -10,13 +10,13 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [x] **Markdown**: Is the README formatted using Markdown?
 - [x] **Naming**: Is the repository name relevant to the project?
 - [x] **1-liner**: Is there a 1-liner briefly describing the project?
-- [ ] **Instructions**: Are there detailed setup and installation instructions, ensuring a new developer can get the project running locally without external help?
-- [ ] **Configuration**: Are configuration instructions provided, such as environment variables or configuration files that need to be set up?
-- [ ] **Contribution**: Are there clear contribution guidelines? Do they outline how developers can contribute to the project, including coding conventions, branch naming conventions, and the pull request process?
+- [x] **Instructions**: Are there detailed setup and installation instructions, ensuring a new developer can get the project running locally without external help?
+- [x] **Configuration**: Are configuration instructions provided, such as environment variables or configuration files that need to be set up?
+- [x] **Contribution**: Are there clear contribution guidelines? Do they outline how developers can contribute to the project, including coding conventions, branch naming conventions, and the pull request process?
 - [x] **ERD**: Does the documentation include an entity relationship diagram?
-- [ ] **Troubleshooting**: Is there an FAQs or Troubleshooting section that addresses common issues, questions, or obstacles users or new contributors might face?
+- [x] **Troubleshooting**: Is there an FAQs or Troubleshooting section that addresses common issues, questions, or obstacles users or new contributors might face?
 - [ ] **Visual Aids**: Are there visual aids (diagrams, screenshots, etc.) that would help developers quickly ramp on to the project?
-- [ ] **API Documentation (for projects providing their own API endpoints)**: Is there clear and detailed documentation for the project's API? This should include descriptions of all endpoints, request/response formats, and authentication methods.
+- [x] **API Documentation (for projects providing their own API endpoints)**: Is there clear and detailed documentation for the project's API? This should include descriptions of all endpoints, request/response formats, and authentication methods.
 
 ### Score (/10):
 
@@ -27,7 +27,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [x] **Repository Management**: Is the repository hosted on a platform like GitHub, GitLab, or Bitbucket, making it accessible for collaboration and review?
 - [x] **Commit Quality**: Does the project have regular commits with clear, descriptive messages?
 - [x] **Pull Requests**: Does the project employ a clear branching and merging strategy, such as Git Flow, to organize development and feature integration?
-- [s] **Issues**: Is the project utilizing issue tracking to manage tasks and bugs?
+- [x] **Issues**: Is the project utilizing issue tracking to manage tasks and bugs?
 - [x] **Linked Issues**: Are these issues linked to pull requests (PRs)? (at least once)
 - [x] **Project Board**: Does the project utilize a project board (e.g., GitHub Projects or Trello) to manage and prioritize work items? (linked to repository or readme, and public)
 - [x] **Code Review Process**: Is there evidence of a code review process, with pull requests reviewed by peers or mentors **before** merging (at least once), ensuring code quality and collaborative learning?
@@ -46,7 +46,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [x] **Code Clarity**: Is the code easy to read and understand? Look for simple, straightforward implementations and avoid unnecessary complexity. 
 - [x] **Comment Quality**: Does the code include inline comments that explain "why" behind non-obvious logic? Over-commenting should be avoided; code should be self-explanatory wherever possible. 
 - [x] **Minimal Unused Code**: Unused code should be deleted (not commented out).
-- [ ] **Linter**: Is a linter (e.g., Rubocop, ESLint) used and configured to enforce code style and quality standards?
+- [x] **Linter**: Is a linter (e.g., Rubocop, ESLint) used and configured to enforce code style and quality standards?
 
 ### Score (/8):
 
@@ -54,11 +54,11 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ## Patterns of Enterprise Applications (max: 10 points)
 - [x] **Domain Driven Design**: Does the application follow domain-driven design principles, with clear separation of concerns and a focus on the core domain logic?
-- [ ] **Advanced Data Modeling**: Has the application utilized ActiveRecord callbacks for model lifecycle management?
+- [x] **Advanced Data Modeling**: Has the application utilized ActiveRecord callbacks for model lifecycle management?
 - [x] **Component-Based View Templates**: Does the application use component-based view templates (partials) to promote reusability and maintainability?
 - [ ] **Backend Modules**: Does the application effectively use modules (concerns, etc.) to encapsulate related functionality and promote code organization?
 - [ ] **Frontend Modules**: Does the application effectively use modules (es6, etc.) to encapsulate related functionality and promote code organization?
-- [ ] **Service Objects**: Does the application abstract logic into service objects when appropriate?
+- [x] **Service Objects**: Does the application abstract logic into service objects when appropriate?
 - [ ] **Polymorphism**: Does the application use polymorphism to create flexible and maintainable code?
 - [ ] **Event-Driven Architecture**: Does the application use event-driven architecture (e.g., pub-sub) to decouple components and improve scalability? (for example ActionCable https://guides.rubyonrails.org/action_cable_overview.html)
 - [ ] **Overall Separation of Concerns**: Are the concerns of the application (e.g., data access, business logic, presentation) separated effectively, with each layer focused on its specific responsibilities?
@@ -69,9 +69,9 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Design (max: 5 points)
-- [ ] **Readability**: Ensure the text is easily readable. Avoid color combinations that make text difficult to read (e.g., white text on a bright pink background).
+- [x] **Readability**: Ensure the text is easily readable. Avoid color combinations that make text difficult to read (e.g., white text on a bright pink background).
 - [ ] **Line length**: The horizontal width of text blocks should be no more than 2–3 lowercase alphabets.
-- [ ] **Font Choices**: Use appropriate font sizes, weights, and styles to enhance readability and visual appeal.
+- [x] **Font Choices**: Use appropriate font sizes, weights, and styles to enhance readability and visual appeal.
 - [x] **Consistency**: Maintain consistent font usage and colors throughout the project.
 - [x] **Double Your Whitespace**: Ensure ample spacing around elements to enhance readability and visual clarity. Avoid cluttered layouts by doubling the whitespace where appropriate.
 
@@ -87,7 +87,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [x] **Feedback**: Are styled flashes or toasts implemented in a partial to provide clear, user-feedback?
 - [ ] **Client-Side Interactivity**: Is JavaScript or JavaScript frameworks/libraries (e.g., jQuery, Stimulus, etc.) utilized to reduce unnecessary page reloads and provide a rich client side experience for key features of the app?
 - [ ] **AJAX**: Is Asynchronous JavaScript (and XML) used to perform a CRUD action and update the UI?
-- [ ] **Form Validation**: Does the project include client-side form validation to provide immediate feedback to users and reduce server requests?
+- [x] **Form Validation**: Does the project include client-side form validation to provide immediate feedback to users and reduce server requests?
 - [ ] **Accessibility: alt tags**: Are alt tags implemented to support users who rely on screen readers and to comply with web accessibility standards?
 - [ ] **Accessibility: ARIA roles**: Are ARIA roles implemented to support users who rely on screen readers and to comply with web accessibility standards?
 
@@ -121,9 +121,9 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ## Security and Authorization (max: 5 points)
 - [ ] **Credentials**: Are API keys and sensitive information securely stored (using .env or Rails credentials)?
 - [ ] **HTTPS**: Is HTTPS enforced? (config.force_ssl = true)?
-- [ ] **Sensitive attributes**: Are sensitive attributes assigned in the model or controller when necessary (e.g. current_user), and not through hidden fields?
+- [x] **Sensitive attributes**: Are sensitive attributes assigned in the model or controller when necessary (e.g. current_user), and not through hidden fields?
 - [ ] **Strong Params**: Are strong parameters used to prevent form vulnerabilities?
-- [ ] **Authorization**: Is an authorization framework (such as Pundit) employed to manage user permissions and ensure secure access control throughout the application?
+- [x] **Authorization**: Is an authorization framework (such as Pundit) employed to manage user permissions and ensure secure access control throughout the application?
 
 ### Score (/5):
 
