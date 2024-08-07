@@ -32,7 +32,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [x] **Project Board**: Does the project utilize a project board (e.g., GitHub Projects or Trello) to manage and prioritize work items? (linked to repository or readme, and public)
 - [x] **Code Review Process**: Is there evidence of a code review process, with pull requests reviewed by peers or mentors **before** merging (at least once), ensuring code quality and collaborative learning?
 - [ ] **Branch Protection**: Are the main branches (e.g., master, main) protected to prevent direct commits and ensure code quality?
-- [ ] **Continuous Integration/Continuous Deployment (CI/CD)**: Has the project implemented CI/CD pipelines (using tools like GitHub Actions) to automate testing and deployment?
+- [x] **Continuous Integration/Continuous Deployment (CI/CD)**: Has the project implemented CI/CD pipelines (using tools like GitHub Actions) to automate testing and deployment?
 
 ### Score (/10):
 
@@ -56,7 +56,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [x] **Domain Driven Design**: Does the application follow domain-driven design principles, with clear separation of concerns and a focus on the core domain logic?
 - [x] **Advanced Data Modeling**: Has the application utilized ActiveRecord callbacks for model lifecycle management?
 - [x] **Component-Based View Templates**: Does the application use component-based view templates (partials) to promote reusability and maintainability?
-- [ ] **Backend Modules**: Does the application effectively use modules (concerns, etc.) to encapsulate related functionality and promote code organization?
+- [x] **Backend Modules**: Does the application effectively use modules (concerns, etc.) to encapsulate related functionality and promote code organization?
 - [ ] **Frontend Modules**: Does the application effectively use modules (es6, etc.) to encapsulate related functionality and promote code organization?
 - [x] **Service Objects**: Does the application abstract logic into service objects when appropriate?
 - [ ] **Polymorphism**: Does the application use polymorphism to create flexible and maintainable code?
@@ -70,7 +70,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ## Design (max: 5 points)
 - [x] **Readability**: Ensure the text is easily readable. Avoid color combinations that make text difficult to read (e.g., white text on a bright pink background).
-- [ ] **Line length**: The horizontal width of text blocks should be no more than 2–3 lowercase alphabets.
+- [x] **Line length**: The horizontal width of text blocks should be no more than 2–3 lowercase alphabets.
 - [x] **Font Choices**: Use appropriate font sizes, weights, and styles to enhance readability and visual appeal.
 - [x] **Consistency**: Maintain consistent font usage and colors throughout the project.
 - [x] **Double Your Whitespace**: Ensure ample spacing around elements to enhance readability and visual clarity. Avoid cluttered layouts by doubling the whitespace where appropriate.
@@ -97,10 +97,10 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ## Backend (max: 9 points)
 - [ ] **CRUD**: Does the application implement at least one resource with full CRUD functionality?
-- [ ] **MVC pattern**: Does the application follow the Model-View-Controller pattern, with skinny controllers and rich models?
-- [ ] **RESTful Routes**: Are the routes RESTful, with clear and consistent naming conventions?
-- [ ] **DRY queries**: Are database queries primarily implemented in the model layer rather than in the views or controllers, following the separation of concerns principle, keeping views lightweight and focused on presentation logic, and controllers thin?
-- [ ] **Data Model Design**: Is the data model well-designed, clear, and efficient, facilitating easy data manipulation and retrieval, while avoiding redundancy and promoting data integrity?
+- [x] **MVC pattern**: Does the application follow the Model-View-Controller pattern, with skinny controllers and rich models?
+- [x] **RESTful Routes**: Are the routes RESTful, with clear and consistent naming conventions?
+- [x] **DRY queries**: Are database queries primarily implemented in the model layer rather than in the views or controllers, following the separation of concerns principle, keeping views lightweight and focused on presentation logic, and controllers thin?
+- [x] **Data Model Design**: Is the data model well-designed, clear, and efficient, facilitating easy data manipulation and retrieval, while avoiding redundancy and promoting data integrity?
 - [x] **Associations**: Does the application efficiently use Rails association methods (belongs_to, has_many, etc.) to organize data relationships?
 - [ ] **Validations**: Are validations implemented to ensure data integrity and consistency?
 - [ ] **Query Optimization**: Does the application use scopes to perform optimized database queries?
