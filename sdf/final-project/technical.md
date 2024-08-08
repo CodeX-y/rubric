@@ -16,7 +16,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [x] **ERD**: Does the documentation include an entity relationship diagram?
 - [x] **Troubleshooting**: Is there an FAQs or Troubleshooting section that addresses common issues, questions, or obstacles users or new contributors might face?
 - [x] **Visual Aids**: Are there visual aids (diagrams, screenshots, etc.) that would help developers quickly ramp on to the project?
-- [x] **API Documentation (for projects providing their own API endpoints)**: Is there clear and detailed documentation for the project's API? This should include descriptions of all endpoints, request/response formats, and authentication methods.
+- [ ] **API Documentation (for projects providing their own API endpoints)**: Is there clear and detailed documentation for the project's API? This should include descriptions of all endpoints, request/response formats, and authentication methods.
 
 ### Score (/10):
 
@@ -31,7 +31,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [x] **Linked Issues**: Are these issues linked to pull requests (PRs)? (at least once)
 - [x] **Project Board**: Does the project utilize a project board (e.g., GitHub Projects or Trello) to manage and prioritize work items? (linked to repository or readme, and public)
 - [x] **Code Review Process**: Is there evidence of a code review process, with pull requests reviewed by peers or mentors **before** merging (at least once), ensuring code quality and collaborative learning?
-- [ ] **Branch Protection**: Are the main branches (e.g., master, main) protected to prevent direct commits and ensure code quality?
+- [x] **Branch Protection**: Are the main branches (e.g., master, main) protected to prevent direct commits and ensure code quality?
 - [x] **Continuous Integration/Continuous Deployment (CI/CD)**: Has the project implemented CI/CD pipelines (using tools like GitHub Actions) to automate testing and deployment?
 
 ### Score (/10):
@@ -56,7 +56,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [x] **Domain Driven Design**: Does the application follow domain-driven design principles, with clear separation of concerns and a focus on the core domain logic?
 - [x] **Advanced Data Modeling**: Has the application utilized ActiveRecord callbacks for model lifecycle management?
 - [x] **Component-Based View Templates**: Does the application use component-based view templates (partials) to promote reusability and maintainability?
-- [x] **Backend Modules**: Does the application effectively use modules (concerns, etc.) to encapsulate related functionality and promote code organization?
+- [ ] **Backend Modules**: Does the application effectively use modules (concerns, etc.) to encapsulate related functionality and promote code organization?
 - [ ] **Frontend Modules**: Does the application effectively use modules (es6, etc.) to encapsulate related functionality and promote code organization?
 - [x] **Service Objects**: Does the application abstract logic into service objects when appropriate?
 - [ ] **Polymorphism**: Does the application use polymorphism to create flexible and maintainable code?
