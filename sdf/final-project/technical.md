@@ -61,8 +61,8 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [x] **Service Objects**: Does the application abstract logic into service objects when appropriate?
 - [ ] **Polymorphism**: Does the application use polymorphism to create flexible and maintainable code?
 - [ ] **Event-Driven Architecture**: Does the application use event-driven architecture (e.g., pub-sub) to decouple components and improve scalability? (for example ActionCable https://guides.rubyonrails.org/action_cable_overview.html)
-- [ ] **Overall Separation of Concerns**: Are the concerns of the application (e.g., data access, business logic, presentation) separated effectively, with each layer focused on its specific responsibilities?
-- [ ] **Overall DRY Principle**: Does the application follow the DRY (Don't Repeat Yourself) principle, with code reuse and minimal redundancy?
+- [x] **Overall Separation of Concerns**: Are the concerns of the application (e.g., data access, business logic, presentation) separated effectively, with each layer focused on its specific responsibilities?
+- [x] **Overall DRY Principle**: Does the application follow the DRY (Don't Repeat Yourself) principle, with code reuse and minimal redundancy?
 
 ### Score (/10):
 
@@ -80,7 +80,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Frontend (max: 10 points)
-- [ ] **Mobile/Tablet Design**: It looks and works great on mobile/tablet (using media queries or CSS framework). Layouts should be responsive and user-friendly, not only shrunk down versions of the desktop site.
+- [x] **Mobile/Tablet Design**: It looks and works great on mobile/tablet (using media queries or CSS framework). Layouts should be responsive and user-friendly, not only shrunk down versions of the desktop site.
 - [x] **Desktop Design**: It looks and works great on desktop.
 - [x] **Styling**: Does the frontend employ CSS or CSS frameworks (like Bootstrap) for styling? Inline CSS should not be overrused.
 - [x] **Semantic HTML**: Is the project making effective use of semantic HTML elements to structure the content, ensuring that it's both accessible and SEO-friendly (e.g., using `<header>`, `<footer>`, `<nav>`, or `<main>` when applicable. See https://www.w3schools.com/html/html5_semantic_elements.asp for more detail)
@@ -123,7 +123,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **HTTPS**: Is HTTPS enforced? (config.force_ssl = true)?
 - [x] **Sensitive attributes**: Are sensitive attributes assigned in the model or controller when necessary (e.g. current_user), and not through hidden fields?
 - [ ] **Strong Params**: Are strong parameters used to prevent form vulnerabilities?
-- [x] **Authorization**: Is an authorization framework (such as Pundit) employed to manage user permissions and ensure secure access control throughout the application?
+- [ ] **Authorization**: Is an authorization framework (such as Pundit) employed to manage user permissions and ensure secure access control throughout the application?
 
 ### Score (/5):
 
