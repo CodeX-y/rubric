@@ -120,10 +120,10 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ## Security and Authorization (max: 5 points)
 - [x] **Credentials**: Are API keys and sensitive information securely stored (using .env or Rails credentials)?
-- [ ] **HTTPS**: Is HTTPS enforced? (config.force_ssl = true)?
+- [x] **HTTPS**: Is HTTPS enforced? (config.force_ssl = true)?
 - [x] **Sensitive attributes**: Are sensitive attributes assigned in the model or controller when necessary (e.g. current_user), and not through hidden fields?
-- [ ] **Strong Params**: Are strong parameters used to prevent form vulnerabilities?
-- [ ] **Authorization**: Is an authorization framework (such as Pundit) employed to manage user permissions and ensure secure access control throughout the application?
+- [x] **Strong Params**: Are strong parameters used to prevent form vulnerabilities?
+- [x] **Authorization**: Is an authorization framework (such as Pundit) employed to manage user permissions and ensure secure access control throughout the application?
 
 ### Score (/5):
 
