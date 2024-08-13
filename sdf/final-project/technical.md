@@ -85,11 +85,11 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [x] **Styling**: Does the frontend employ CSS or CSS frameworks (like Bootstrap) for styling? Inline CSS should not be overrused.
 - [x] **Semantic HTML**: Is the project making effective use of semantic HTML elements to structure the content, ensuring that it's both accessible and SEO-friendly (e.g., using `<header>`, `<footer>`, `<nav>`, or `<main>` when applicable. See https://www.w3schools.com/html/html5_semantic_elements.asp for more detail)
 - [x] **Feedback**: Are styled flashes or toasts implemented in a partial to provide clear, user-feedback?
-- [ ] **Client-Side Interactivity**: Is JavaScript or JavaScript frameworks/libraries (e.g., jQuery, Stimulus, etc.) utilized to reduce unnecessary page reloads and provide a rich client side experience for key features of the app?
+- [x] **Client-Side Interactivity**: Is JavaScript or JavaScript frameworks/libraries (e.g., jQuery, Stimulus, etc.) utilized to reduce unnecessary page reloads and provide a rich client side experience for key features of the app?
 - [ ] **AJAX**: Is Asynchronous JavaScript (and XML) used to perform a CRUD action and update the UI?
 - [x] **Form Validation**: Does the project include client-side form validation to provide immediate feedback to users and reduce server requests?
-- [ ] **Accessibility: alt tags**: Are alt tags implemented to support users who rely on screen readers and to comply with web accessibility standards?
-- [ ] **Accessibility: ARIA roles**: Are ARIA roles implemented to support users who rely on screen readers and to comply with web accessibility standards?
+- [x] **Accessibility: alt tags**: Are alt tags implemented to support users who rely on screen readers and to comply with web accessibility standards?
+- [x] **Accessibility: ARIA roles**: Are ARIA roles implemented to support users who rely on screen readers and to comply with web accessibility standards?
 
 ### Score (/10):
 
@@ -119,7 +119,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 ### Notes:
 
 ## Security and Authorization (max: 5 points)
-- [ ] **Credentials**: Are API keys and sensitive information securely stored (using .env or Rails credentials)?
+- [x] **Credentials**: Are API keys and sensitive information securely stored (using .env or Rails credentials)?
 - [ ] **HTTPS**: Is HTTPS enforced? (config.force_ssl = true)?
 - [x] **Sensitive attributes**: Are sensitive attributes assigned in the model or controller when necessary (e.g. current_user), and not through hidden fields?
 - [ ] **Strong Params**: Are strong parameters used to prevent form vulnerabilities?
