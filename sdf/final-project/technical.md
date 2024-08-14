@@ -160,7 +160,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [ ] **Cloud Storage Integration**: Integration with cloud storage services (e.g., AWS S3) for handling file uploads and storage.
 - [ ] **Chat GPT or AI Integration**: Implementation of Chat GPT or other AI services to provide intelligent responses or features. 
 - [ ] **Payment Processing**: Implementation of a payment gateway (e.g., Stripe) for secure online transactions.
-- [ ] **OAuth**: Implementation of OAuth for secure, third-party authentication.
+- [x] **OAuth**: Implementation of OAuth for secure, third-party authentication.
 - [ ] **Other**: Any other features or functionalities that enhance the application's value and user experience (specify in notes below).
 
 ### Score (/16):
