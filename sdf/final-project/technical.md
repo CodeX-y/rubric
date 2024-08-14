@@ -102,8 +102,8 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 - [x] **DRY queries**: Are database queries primarily implemented in the model layer rather than in the views or controllers, following the separation of concerns principle, keeping views lightweight and focused on presentation logic, and controllers thin?
 - [x] **Data Model Design**: Is the data model well-designed, clear, and efficient, facilitating easy data manipulation and retrieval, while avoiding redundancy and promoting data integrity?
 - [x] **Associations**: Does the application efficiently use Rails association methods (belongs_to, has_many, etc.) to organize data relationships?
-- [ ] **Validations**: Are validations implemented to ensure data integrity and consistency?
-- [ ] **Query Optimization**: Does the application use scopes to perform optimized database queries?
+- [x] **Validations**: Are validations implemented to ensure data integrity and consistency?
+- [x] **Query Optimization**: Does the application use scopes to perform optimized database queries?
 - [x] **Database Management**: Are additional features such as file upload (CSV) or custom rake tasks for database management included? (e.g. slurp.rake task)
 
 ### Score (/9):
@@ -112,7 +112,7 @@ This is intended to be filled out by staff members of DPI Tech Apprenticeship pr
 
 ## Quality Assurance and Testing (max: 2 points)
 - [ ] **End to End Test Plan**: Does the project include an end to end test plan?
-- [ ] **Automated Testing**: Does the project include a test suite (e.g., RSpec, Minitest, Jest, etc.) that covers key flows or logic components?
+- [x] **Automated Testing**: Does the project include a test suite (e.g., RSpec, Minitest, Jest, etc.) that covers key flows or logic components?
 
 ### Score (/2):
 
